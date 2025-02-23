@@ -1,0 +1,43 @@
+.container {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 60px;
+}
+
+.refresh_icon {
+    margin-right: 20px;
+}.refresh_icon:hover {
+    cursor: pointer;
+    color: var(--color-accent-light);
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 14px;
+}
+th {
+    text-align: left;
+}
+tr:has(th) {
+    background-color: var(--color-th);
+}
+.th {
+    font-weight: 600;
+    font-family: 'Urbanist', sans-serif;
+    
+    width: 25%;
+    padding: 10px 30px;
+}
+td {
+    font-weight: 400;
+    font-family: 'Urbanist', sans-serif;
+    
+    width: 25%;
+    padding: 10px 30px;
+    border-bottom: 1px solid var(--color-td-border);
+    color: var(--color-black);
+}tr:not(:has(th)):hover {
+    cursor: pointer;
+    background-color: var(--color-th);
+}

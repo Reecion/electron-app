@@ -1,0 +1,17 @@
+.button {
+    outline: none;
+    border: none;
+    background-color: var(--color-accent-light);
+    color: white;
+    border-radius: 25px;
+    font-weight: 600;
+}.button:hover {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: var(--color-accent-highlight);
+}.button:focus {
+    background-color: var(--color-accent-dark);
+    border: none;
+    outline: none;
+}

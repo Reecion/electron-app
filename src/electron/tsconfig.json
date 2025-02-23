@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "strict": true, // null safety
+        "target": "ESNext", // generate ESM Syntax
+        "module": "NodeNext", // require ESM Syntax as input
+        "outDir": "../../dist-electron", // where to put generated JS
+        "skipLibCheck": true, // ignore errors from dependencies
+        "types": ["../../types"]
+    }
+}

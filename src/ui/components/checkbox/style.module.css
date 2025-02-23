@@ -1,0 +1,12 @@
+.checkbox {
+    border-radius: 5px;
+}
+
+.checkbox[data-state="false"] {
+    border: 1px solid var(--color-gray);
+    background-color: white;
+}
+
+.checkbox[data-state="true"] {
+    background-color: var(--color-accent-light);
+}

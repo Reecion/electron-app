@@ -1,0 +1,100 @@
+.titleBar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 60px;
+    height: 60px;
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+}
+
+.closeIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 45px;
+    height: 45px;
+    color: white;
+    margin-left: auto;
+}
+
+.closeIcon:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.login_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.login_image {
+    min-width: 780px;
+    max-width: 780px;
+    overflow: hidden;
+}
+
+.block_img {
+    position: absolute;
+    top: 60px;
+    left: 500px;
+    right: 0px;
+    bottom: 0;
+    -webkit-user-drag: none;
+    -webkit-app-region: no-drag;
+}
+
+.login_form {
+    min-width: 500px;
+    max-width: 500px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.errorMsg {
+    color: red;
+}
+
+.form_logo {
+    width: 100px;
+    height: auto;
+    margin-top: 70px;
+
+    -webkit-user-drag: none;
+    -webkit-app-region: no-drag;
+}
+
+.login_form>h1 {
+    font-size: 32px;
+
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.f_pwd_btn {
+    outline: none;
+    background: none;
+    border: none;
+    color: var(--color-gray);
+    margin-right: 80px;
+    margin-left: auto;
+}
+
+.f_pwd_btn:hover {
+    cursor: pointer;
+    color: var(--color-accent-dark);
+}
+
+.f_pwd_btn:focus {
+    color: var(--color-accent-dark);
+    outline: none;
+}

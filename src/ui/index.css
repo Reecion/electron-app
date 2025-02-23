@@ -1,0 +1,97 @@
+:root {
+  font-family: "Urbanist", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #213547;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-black: black;
+  --color-dark-gray: #718990;
+  --color-gray: #9C9D9E;
+  --color-th: #F1F7F9;
+  --color-td-border: #CCDADF;
+  --color-accent-dark: #D60010;
+  --color-accent-normal: #eb4224;
+  --color-accent-light: #F95F45;
+  --color-accent-highlight: #ff6f56;
+
+  --msg-error-bg: #FDE6EB;
+  --msg-error-border: #FF9BC3;
+  --msg-error-text: #A70043;
+
+  --msg-running-bg: #FEF8C3;
+  --msg-running-border: #F1E9A5;
+  --msg-running-text: #934C00;
+
+  --msg-success-bg: #CCFBF1;
+  --msg-success-border: #9FF1DF;
+  --msg-success-text: #1E8379;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.prevent-drag,
+.prevent-drag::after,
+.prevent-drag::before {
+  -webkit-user-drag: none;
+  -webkit-app-region: no-drag;
+}
+
+.prevent-select {
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  width: 1280px;
+  height: 832px;
+  overflow: hidden;
+}
+
+h1 {
+  margin-bottom: 0px;
+  font-size: 3.5em;
+  line-height: 1.1;
+
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+p {
+  margin: 0px;
+  color: var(--color-gray);
+  font-size: 18px;
+
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

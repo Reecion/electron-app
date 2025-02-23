@@ -1,0 +1,32 @@
+.error_container {
+    height: 25px;
+    width: 90px;
+    background-color: var(--msg-error-bg);
+    border: 1px solid var(--msg-error-border);
+    border-radius: 5px;
+    color: var(--msg-error-text);
+    text-align: center;
+    font-weight: 600;
+}
+
+.success_container {
+    height: 25px;
+    width: 90px;
+    background-color: var(--msg-success-bg);
+    border: 1px solid var(--msg-success-border);
+    border-radius: 5px;
+    color: var(--msg-success-text);
+    text-align: center;
+    font-weight: 600;
+}
+
+.running_container {
+    height: 25px;
+    width: 90px;
+    background-color: var(--msg-running-bg);
+    border: 1px solid var(--msg-running-border);
+    border-radius: 5px;
+    color: var(--msg-running-text);
+    text-align: center;
+    font-weight: 600;
+}

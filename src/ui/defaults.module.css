@@ -1,0 +1,22 @@
+.title {
+    font-size: 2em;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.paragraph {
+    color: var(--color-gray);
+    font-size: 16px;
+
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
