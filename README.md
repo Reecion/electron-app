@@ -10,7 +10,8 @@
   </i><span>
   </b></p>
   <img src="images/caution.jpg" alt="Logo" width="260" height="40">
-  
+
+  <br/><br/>
 
   <a href="https://github.com/reecion">
     <img src="desktopIcon.png" alt="Logo" width="80" height="80">
